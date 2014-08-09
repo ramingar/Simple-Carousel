@@ -7,6 +7,7 @@
 (function(){
     var carousel      = $('#slideshow>li');
     var index         = 0;
+    var timePag       = 3000;
     var pid;
     var showNext      = function(){
         carousel.eq(index).fadeOut(function(){
@@ -21,7 +22,7 @@
         });
     }
     var startCarousel = function(){
-        pid = setInterval(function(){ showNext(); }, 3000);
+        pid = setInterval(function(){ showNext(); }, timePag);
     }
     var stopCarousel  = function(){
         clearInterval(pid);
