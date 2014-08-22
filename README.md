@@ -1,5 +1,5 @@
-# Simple Carousel
-El objetivo de este código es crear un *slideshow* tipo carrusel que mostrará los elementos con un `$.fn.fadeIn` y los desvanecerá con un `$.fn.fadeOut`.
+# Simple Slideshow
+El objetivo de este código es crear un *slideshow* que mostrará los elementos con un `$.fn.fadeIn` y los desvanecerá con un `$.fn.fadeOut`.
 
 Está escrito en jQuery, así que se necesitará la librería para hacer que funcione. Puede descargarse desde [aquí](http://jquery.com/download/).
 
